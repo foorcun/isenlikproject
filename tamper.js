@@ -75,6 +75,8 @@ var i;
 for (i = 0; i < dersKodlariElements.length; i++) {
     dersKodlari[i] = dersKodlariElements[i].innerHTML;
 }
+
+dersKodlari.shift(); // The shift() command will remove the first element of the array
 console.log(dersKodlari);
 
 
